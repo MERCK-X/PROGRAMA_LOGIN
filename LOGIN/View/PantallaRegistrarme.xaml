@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LOGIN.Views.PantallaRegistrarme"
+             Title="Registro">
+    <VerticalStackLayout Padding="20">
+        <Entry Placeholder="Nombre" Text="{Binding Nombre}" />
+        <Entry Placeholder="Correo electrónico" Text="{Binding Email}" />
+        <Entry Placeholder="Contraseña" Text="{Binding Password}" IsPassword="True" />
+        <Button Text="Registrarse" Command="{Binding RegistrarCommand}" />
+    </VerticalStackLayout>
+</ContentPage>
