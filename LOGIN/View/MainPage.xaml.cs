@@ -1,4 +1,6 @@
-﻿namespace LOGIN
+﻿using LOGIN.Views;
+
+namespace LOGIN
 {
     public partial class MainPage : ContentPage
     {

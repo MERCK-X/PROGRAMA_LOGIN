@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled"
     Title="LOGIN">
 
-    <ShellContent Route="SplashScreen" ContentTemplate="{DataTemplate local:SplashScreen}" />
+    <ShellContent Route="SplashScreen" ContentTemplate="{DataTemplate local:SplashScreenView}" />
     <ShellContent Route="MainPage" ContentTemplate="{DataTemplate local:MainPage}" />
     <ShellContent Route="Registro" ContentTemplate="{DataTemplate local:PantallaRegistrarme}" />
     <ShellContent Route="Login" ContentTemplate="{DataTemplate local:PantallaLoginExistente}" />
